@@ -111,7 +111,7 @@ namespace BFTTFify
             br.Close();
 
             //Congradulate user on successful encryption
-            Console.WriteLine("Successefully encrypted to " + outfile);
+            Console.WriteLine("Successfully encrypted to " + outfile);
         }
 
         private static void DecryptBFTTF(string infile, string outfile)
